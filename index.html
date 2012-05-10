@@ -13,9 +13,9 @@
 <!-- HEADER Branding logo and site navigation --> 
 
 <header>
-	<img src="images/ARW_logo.png" alt="My_dog_boog" title="Pet Rehabilitation">
-	<h1>A Wellness Center for Pets</h1>
-	<nav>
+	<img id="main_image" src="images/ARW_logo.png" alt="Rehabilitation_Wellness" title="Pet Rehabilitation">
+	
+	<nav id="main_navigation">
 		<ul>
 			<li><a href="#home_page">Home</a></li>
 			<li><a href="#about_us">About Us</a></li>
@@ -25,10 +25,11 @@
 </header>
 
 <!-- HOME Main image and three information columns -->
+<div id="cta">
 
-	<h2 id="home_page">Pet Therapy, Rehabilitation &amp; Medical Boarding</h2>
+</div>
 	
-	<img src="Images/piper.jpg" alt="My_dog_piper" title="Pet Wellness Center">
+	<h2 id="home_page">Pet Therapy, Rehabilitation &amp; Medical Boarding</h2>
 
 <div id="home_columns">
 		<h3>Our Mission</h3>
@@ -45,7 +46,7 @@
 
 		<h2 id="about_us">About Animal Rehabilitation &amp; Wellness, Inc.</h2>
 <div>
-	<aside class="testimonial">
+	<aside id="testimonial_one">
 		<header>
 			<p class="testimonial_title">Professional Recognition</p>
 		</header>
@@ -55,27 +56,29 @@
 		</footer>
 	</aside>
 </div>
+
 <!-- ABOUT US Images, information -->
 
-<div>
-	<img src="Images/Boog_w_bully.jpg" alt="My_dog_boog" title="Pet Rehabilitation">
-	<img src="images/kitten_image.jpg" alt="Kittens" title="Exercise Therapy">
-	<img src="images/puppies_image.jpg" alt="Puppies" title="Water Therapy">
-</div>
-	
-<div>
+<div id="about_content">
 		<p>Clinical Director Cory Sims has been practicing veterinary medicine for 8 years. Operations Manager Troy Mendia is a veterinary assistant with <span>specific training in animal rehabilitation and therapeutic medicine.</span></p>
 	
 		<p>All of the staff at Animal Rehabilitation &amp; Wellness are passionate about providing <span>non-invasive, drug-free therapies to compliment and enhance the benefits of clinical medicine.</span></p>
-		
+
 	<section>
 		<p>We welcome <a href="#contact_us">inquiries</a> about our services and the benefits of rehabilitation therapy for animals.</p>
 	</section>
 </div>
 
+<div id="image_gallery">
+	<img class="image_gallery" src="Images/Boog_w_bully.jpg" alt="My_dog_boog" title="Pet Rehabilitation">
+	<img class="image_gallery" src="images/kitten_image.jpg" alt="Kittens" title="Exercise Therapy">
+	<img class="image_gallery" src="images/puppies_image.jpg" alt="Puppies" title="Water Therapy">
+	<img class="image_gallery" src="images/puppies_image.jpg" alt="Puppies" title="Water Therapy">
+</div>
+
 <!-- ABOUT US services/partners list -->
 
-<div>		
+<div id="lists">		
 	<h4>Some of Our Services</h4>
 		<ol>
 			<li>Medical Boarding</li>
@@ -92,7 +95,7 @@
 
 <!-- ABOUT US Testimonials -->
 
-<aside class="testimonial">
+<aside id="testimonial_two">
 	<header>
 		<p class="testimonial_title">Blossom's Story</p>
 	</header>
