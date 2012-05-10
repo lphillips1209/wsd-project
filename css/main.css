@@ -14,6 +14,16 @@ body{
 /*--Text Properties--*/
 
 #home_columns{
+	background-color: #fff;
+	border: 1px solid #000;
+	padding: 15px 15px 15px 15px;
+	margin: 30px 0px 30px 0px;
+	border-radius: 30px;
+	/*-moz-box-shadow: 5px 5px 5px #666;
+	-ms-box-shadow: 5px 5px 5px #666;
+	-web-box-shadow: 5px 5px 5px #666;
+	-o-box-shadow: 5px 5px 5px #666;
+	-khtml-box-shadow: 5px 5px 5px #666;*/
 	-moz-column-count: 3;
 	-ms-column-count: 3;
 	-web-column-count: 3;
@@ -37,6 +47,7 @@ h2{
 	font-size: 20px;
 	font-family: Rosarivo, arial, sans-serif;
 	color: #00688B;
+	text-align: center;
 }
 
 h3{
@@ -44,6 +55,7 @@ h3{
 	font-family: Rosarivo, arial, sans-serif;
 	color: #8B5A2B;
 	text-shadow: 1px 1px 2px #4F94CD;
+	text-decoration: underline;
 }
 
 h4{
@@ -58,7 +70,7 @@ h4{
 	width: 280px;
 	border: 1px solid #000;
 	padding: 5px 5px 10px 20px;
-	margin: 0px 30px 30px 20px;
+	margin: 30px 30px 30px 0px;
 	border-radius: 30px;
 	-moz-box-shadow: 5px 5px 5px #666;
 	-ms-box-shadow: 5px 5px 5px #666;
@@ -110,5 +122,11 @@ ul li{
 	padding-right: 20px;
 	display: inline;
 }
+
+li{
+	text-decoration: none;
+}
+
+
 
 
