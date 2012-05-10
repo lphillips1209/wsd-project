@@ -5,16 +5,21 @@ body{
 	margin: 20px auto;
 }
 
-#home_columns{
-	-moz-column-count: 3;
-}
-
 /*--Image Properties--*/
 
 
 
 
+
 /*--Text Properties--*/
+
+#home_columns{
+	-moz-column-count: 3;
+	-ms-column-count: 3;
+	-web-column-count: 3;
+	-o-column-count: 3;
+	-khtml-column-count: 3;
+}
 
 p{
 	font-size: 12px; 
@@ -25,25 +30,25 @@ p{
 
 h1{
 	font-size: 24px;
-	font-family: Italiana, arial, sans-serif;
+	font-family: Rosarivo, arial, sans-serif;
 }
 
 h2{
 	font-size: 20px;
-	font-family: Italiana, arial, sans-serif;
-	color: #4F94CD;
+	font-family: Rosarivo, arial, sans-serif;
+	color: #00688B;
 }
 
 h3{
 	font-size: 18px;
-	font-family: Italiana, arial, sans-serif;
-	color: #8B5A00;
+	font-family: Rosarivo, arial, sans-serif;
+	color: #8B5A2B;
 	text-shadow: 1px 1px 2px #4F94CD;
 }
 
 h4{
 	font-size: 16px;
-	font-family: Italiana, arial, sans-serif;
+	font-family: Rosarivo, arial, sans-serif;
 }
 
 /*--Testimonial Properties--*/
@@ -52,7 +57,8 @@ h4{
 	background-color: #FFFACD;
 	width: 280px;
 	border: 1px solid #000;
-	padding: 5px 5px 5px 20px;
+	padding: 5px 5px 10px 20px;
+	margin: 0px 30px 30px 20px;
 	border-radius: 30px;
 	-moz-box-shadow: 5px 5px 5px #666;
 	-ms-box-shadow: 5px 5px 5px #666;
@@ -82,7 +88,7 @@ h4{
 /*--Link Properties--*/
 
 a:link{
-	color: #009ACD;
+	color: #4F94CD;
 }
 
 a:visited{
