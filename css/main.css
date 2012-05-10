@@ -5,6 +5,9 @@ body{
 	margin: 20px auto;
 }
 
+#home_columns{
+	-moz-column-count: 3;
+}
 
 /*--Image Properties--*/
 
