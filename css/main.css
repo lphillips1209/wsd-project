@@ -1,0 +1,110 @@
+/*--Box Values--*/
+
+body{
+	width: 780px;
+	margin: 20px auto;
+}
+
+/*--Image Properties--*/
+
+
+
+
+/*--Text Properties--*/
+
+p{
+	font-size: 12px; 
+	font-family: arial, sans-serif;
+	font-weight: normal;
+	line-height: 1.5;
+}
+
+h1{
+	font-size: 24px;
+	font-family: Italiana, arial, sans-serif;
+}
+
+h2{
+	font-size: 20px;
+	font-family: Italiana, arial, sans-serif;
+	color: #4F94CD;
+}
+
+h3{
+	font-size: 18px;
+	font-family: Italiana, arial, sans-serif;
+	color: #8B5A00;
+	text-shadow: 1px 1px 2px #4F94CD;
+}
+
+h4{
+	font-size: 16px;
+	font-family: Italiana, arial, sans-serif;
+}
+
+/*--Testimonial Properties--*/
+
+.testimonial{
+	background-color: #FFFACD;
+	width: 280px;
+	border: 1px solid #000;
+	padding: 5px 5px 5px 20px;
+	border-radius: 30px;
+	-moz-box-shadow: 5px 5px 5px #666;
+	-ms-box-shadow: 5px 5px 5px #666;
+	-web-box-shadow: 5px 5px 5px #666;
+	-o-box-shadow: 5px 5px 5px #666;
+	-khtml-box-shadow: 5px 5px 5px #666;
+}
+
+.testimonial_signature{
+	font-size: 15px;
+	font-family: "Homemade Apple", cursive, sans-serif;
+	line-height: 1.5
+}
+
+.testimonial_title{
+	font-size: 16px;
+	font-family: Tahoma, arial, sans-serif;
+	font-weight: bold;
+}
+
+.testimonial_main{
+	font-size: 12px;
+	font-family: "Times New Roman", sans-serif;
+	line-height: 1.5;
+}
+
+/*--Link Properties--*/
+
+a:link{
+	color: #009ACD;
+}
+
+a:visited{
+	color: #8B8B00;
+}
+
+a:hover{
+	color: #8B2500;
+}
+
+a:active{
+	color: #8B5A00;
+}
+
+/*--List Properties--*/
+
+ul li{
+	display: inline;
+}
+
+ul{
+	list-style-type: none;
+}
+
+ol{
+	list-style-type: circle;
+}
+
+
