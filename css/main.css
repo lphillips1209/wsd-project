@@ -27,6 +27,9 @@ body{
 
 #cta{
 	float: left;
+	/*background-image: url("../images/scoopdog.png");
+	background: no-repeat;
+	background-position:*/
 	border-radius: 30px;
 	background-color: #000;
 	width: 780px;
