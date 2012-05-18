@@ -2,6 +2,7 @@
 <html lang="en">
 	<head>
 		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 		<title>Animal Rehabilitation &amp; Wellness</title>
 		<link rel="stylesheet" href="css/main.css">
 		<link href='http://fonts.googleapis.com/css?family=Homemade+Apple' rel='stylesheet' type='text/css'>
@@ -9,10 +10,10 @@
 	</head>
 	
 <body>
+<div id="wrapper">
 
 <!-- HEADER Branding logo and site navigation --> 
-
-<header>
+	<header>
 	<img id="main_image" src="images/ARW_logo.png" alt="Rehabilitation_Wellness" title="Pet Rehabilitation">
 	
 	<nav id="main_navigation">
@@ -22,14 +23,14 @@
 			<li><a href="#contact_us">Contact Us</a></li>
 		</ul>
 	</nav>
-</header>
+	</header>
 
 <!-- HOME Main image and three information columns -->
-<div id="cta">
-	<img id="scoop_image" src="images/scoopdog.png" alt="My_dog_boog" title="Pet Rehabilitation">
-</div>
+	<div id="cta">
+		<img id="scoop_image" src="images/scoopdog.png" alt="My_dog_boog" title="Pet Rehabilitation">
+	</div>
 	
-<div id="home_columns">
+	<div id="home_columns">
 		<h3>Our Mission</h3>
 			<p>Our mission at Animal Rehabilitation &amp; Wellness is to provide excellent 		 professional rehabilitation and wellness services for your pet. Our facility is uniquely designed to allow us to <strong>provide a broad range of therapeutic exercise in an open and stimulating environment.</strong></p>
 		
@@ -38,12 +39,16 @@
 		
 		<h3>Exercise Therapy</h3>
 			<p>Exercise therapy or rehabilitation therapy for animals is equivalent to human physical therapy. There are many aspects to animal rehabilitation and exercise therapy, each which offers a particular benefit. <strong>Every patient's program is individually designed for their illness.</strong></p>	
-</div>
+	</div>
 
 <!-- HOME Testimonials -->
 
 		<!--<h2>About Animal Rehabilitation &amp; Wellness, Inc.</h2>-->
+<section>
 <div>
+	<h2 id="about_us">About Us</h2>
+</div>
+	<div>
 	<aside id="testimonial_one">
 		<header>
 			<p class="testimonial_title">Professional Recognition</p>
@@ -57,43 +62,45 @@
 
 <!-- ABOUT US Images, information -->
 
-<div id="about_content">
+	<div id="about_content">
 		<p>Clinical Director Cory Sims has been practicing veterinary medicine for 8 years. Operations Manager Troy Mendia is a veterinary assistant with <span>specific training in animal rehabilitation and therapeutic medicine.</span></p>
 	
 		<p>All of the staff at Animal Rehabilitation &amp; Wellness are passionate about providing <span>non-invasive, drug-free therapies to compliment and enhance the benefits of clinical medicine.</span></p>
 
-	<section>
-		<p>We welcome <a href="#contact_us">inquiries</a> about our services and the benefits of rehabilitation therapy for animals.</p>
-	</section>
-</div>
+		<section>
+			<p>We welcome <a href="#contact_us">inquiries</a> about our services and the benefits of rehabilitation therapy for animals.</p>
+		</section>
+	</div>
 
-<div id="image_gallery">
-	<img class="image_gallery" src="Images/Boog_w_bully.jpg" alt="My_dog_boog" title="Pet Rehabilitation">
-	<img class="image_gallery" src="images/kitten_image.jpg" alt="Kittens" title="Exercise Therapy">
-	<img class="image_gallery" src="images/puppies_image.jpg" alt="Puppies" title="Water Therapy">
-	<img class="image_gallery" src="images/bitty_inside.jpg" alt="Our_Cat" title="Medical Boarding">
-</div>
+	<div id="image_gallery">
+		<img class="image_gallery" src="Images/Boog_w_bully.jpg" alt="My_dog_boog" title="Pet Rehabilitation">
+		<img class="image_gallery" src="images/kitten_image.jpg" alt="Kittens" title="Exercise Therapy">
+		<img class="image_gallery" src="images/puppies_image.jpg" alt="Puppies" title="Water Therapy">
+		<img class="image_gallery" src="images/bitty_inside.jpg" alt="Our_Cat" title="Medical Boarding">
+	</div>
 
 <!-- ABOUT US services/partners list -->
 
-<div id="lists">		
+	<div id="lists">		
 	<h4>Some of Our Services</h4>
 		<ol>
 			<li>Medical Boarding</li>
 			<li>Exercise Therapy</li>
 			<li>Pet Rehabilitation</li>
-		</ol>	
+		</ol>
+	</div>
+	<div id="lists_two">
 	<h4>Our Partners &amp; Supporters</h4>
 		<ol>
-			<li><a href="http://www.brentwoodvet.net/">Brentwood Veterinary Hospital</a></li>
+			<li><a href="http://www.brentwoodvet.net/">Brentwood Veterinary Hospital</a>	</li>
 			<li>Pet Grooming Store</li>
 			<li>Pet Food Store</li>
-		</ol>
-</div>
-
+			</ol>
+	</div>
+</section>
 <!-- ABOUT US Testimonials -->
 
-<aside id="testimonial_two">
+<!-- <aside id="testimonial_two">
 	<header>
 		<p class="testimonial_title">Blossom's Story</p>
 	</header>
@@ -101,19 +108,19 @@
 	<footer>
 		<p class="testimonial_signature">Sean, Karon &amp; Riley, Brentwood CA</p>
 	</footer>
-</aside>
+</aside>-->
 	
 <!-- CONTACT US -->
 
-<div>
-	<h2 id="contact_us">Contact Animal Rehabilitation &amp; Wellness</h2>
-</div>
+	<div class="contact_page">
+		<h2 id="contact_us">Contact Animal Rehabilitation &amp; Wellness</h2>
+	</div>
 	
 <!-- FOOTER copyright, company branding -->
 
-	<footer>
-		<p>Animal Rehabilitation &amp; Wellness, Inc. &copy; 2012. All rights reserved</p>
-	</footer>
-
+		<footer>
+			<p>Animal Rehabilitation &amp; Wellness, Inc. &copy; 2012. All rights reserved</p>
+		</footer>
+</div>
 </body>
 </html>
